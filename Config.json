@@ -3,15 +3,5 @@
 	"workbench.colorTheme": "Dracula",
 	"workbench.iconTheme": "material-icon-theme",
 	"window.zoomLevel": 0,
-	"[typescript]": {
-		"editor.defaultFormatter": "vscode.typescript-language-features",
-		"editor.tabSize": 2,
-		"editor.insertSpaces": true,
-		"editor.detectIndentation": false
-	},
-	"[javascript]": {
-		"editor.tabSize": 2,
-		"editor.insertSpaces": true,
-		"editor.detectIndentation": false
-	}
+	"editor.tabSize": 2
 }
