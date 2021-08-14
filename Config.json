@@ -3,5 +3,60 @@
 	"workbench.colorTheme": "Dracula",
 	"workbench.iconTheme": "material-icon-theme",
 	"window.zoomLevel": 0,
-	"editor.tabSize": 2
+	"editor.tabSize": 2,
+	"editor.fontSize": 18,
+	"editor.lineHeight": 26,
+	"html.suggest.html5": true,
+	"emmet.syntaxProfiles": {"javascript": "jsx"},
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact",
+		"njk": "html"
+	},
+	"explorer.compactFolders": false,
+	"javascript.suggest.autoImports": true,
+	"typescript.suggest.autoImports": true,
+	"material-icon-theme.activeIconPack": "nest",
+	"files.associations": {
+		"*.njk": "njk",
+		".prettierrc": "json"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[json]": {
+
+	},
+	"explorer.confirmDragAndDrop": false,
+	"material-icon-theme.folders.associations": {
+		"infra": "app",
+		"entities": "class",
+		"domain": "class",
+		"schemas": "class",
+		"typeorm": "database",
+		"repositories": "mappings",
+		"http": "container",
+		"migrations": "tools",
+		"modules": "components",
+		"implementations": "core",
+		"dtos": "typescript",
+		"fakes": "mock",
+		"websockets": "pipe",
+		"protos": "pipe",
+		"grpc": "pipe",
+		"providers": "include",
+		"subscribers": "messages",
+		"useCases": "controller",
+		"kafka": "scripts",
+		"mappers": "meta",
+		"_shared": "shared",
+		"eslint-config": "tools",
+		"kube": "kubernetes",
+		"*": "core"
+	},
+	"material-icon-theme.files.associations": {
+		"ormconfig.json": "database",
+		"tsconfig.json": "tune",
+		"*.proto": "3d",
+		"*.webpack.js": "webpack"
+	}
 }
